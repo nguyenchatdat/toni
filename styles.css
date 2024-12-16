@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Playwrite+NL+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Imperial+Script&family=Playwrite+NL+Guides&display=swap');
+body {
+    background: #FFb3d1;
+    font-family: "Imperial Script", cursive;
+    overflow: hidden;
+}
+
+.no {
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.no:hover {
+    opacity: 0;
+    display: none;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.row {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #f8eef2;
+    width: 120px;
+    height: 75px;
+    border-radius: 15px;
+    font-size: 40px;
+    font-family: "Dynalight", cursive;
+    border-color: #925f73;
+    border-width: 5px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+
+img {
+    margin-bottom: 52px;
+}
